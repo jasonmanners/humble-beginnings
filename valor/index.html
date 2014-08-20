@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Valor - Sidescrolling Adventure">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name = "viewport" content = "width = 450">
+    <title>Valor</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/valor.css" />
+    <script type="text/javascript">
+      if (document.images) {
+          preloaded_heavy_img = new Image();
+          preloaded_heavy_img.src = "media/heavy_run.png";
+          preloaded_standing_img = new Image();
+          preloaded_standing_img.src = "media/standing.png";
+          preloaded_blast_img = new Image();
+          preloaded_blast_img.src = "media/gun_blast.png";
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="world" width="800" height="450"></canvas>
+    <div>
+      <section id="menu" class="ui">
+        <h2 id="title">Valor</h2>
+        <p>Sidescroller</p>
+        <ul>
+          <li><a href="javascript:start_game();" id="start_game" class="button">Play Campaign</a></li>
+          <li><a href="#" id="start_challenges" class="button">Challenges</a></li>
+          <li><a href="#" id="view_highscore" class="button">View Highscores</a></li>
+        </ul>
+      </section>
+      <section id="hud" class="ui">
+	      <span id="health" class="hud-item"><span id="heart_img">2</span><span>Health: 11/22</span></span>
+	      <span id="power"  class="hud-item">POWER!</span>
+	      <span id="ammo"   class="hud-item">Ammo: 23/33</span>
+      </section>
+    </div>
+    <p id="output"></p>
+    <div id="level_data"></div>
+    <div id="includes">
+      <script type="text/javascript" src="js/canvas_util.js"></script>
+      <script type="text/javascript" src="js/game_objects.js"></script>
+      <script type="text/javascript" src="js/valor.js"></script>
+    </div>
+  </body>
+</html>

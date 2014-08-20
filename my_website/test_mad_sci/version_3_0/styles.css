@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+}
+
+#background_canvas {
+  position: fixed;
+  left: -5px;
+  top: -5px;
+  z-index: -10;
+}
+
+/*
+#navigation li a{
+  background: url("../images/icons.png") no-repeat scroll 0 0 transparent;
+}
+*/
+.nav_button {
+  height: 50px;
+  width: 50px;
+  border: 4px solid #000000;
+  -moz-border-radius: 5px;
+  -webKit-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: block;
+  text-indent: -9999px;
+  margin: 5px;
+  -moz-box-shadow: 0px 0px 3px #999999;-webkit-box-shadow: 0px 0px 3px #999999;
+  box-shadow: 0px 0px 3px #999999;
+  float: left;
+}
+#home_nav {
+  background-color: #DDDDDD; /* background-position: 0 0;*/
+}
+#about_nav {
+  background: #B2D249;
+}
+#experiments_nav {
+  background: #77994C; 
+}
+
+#games_nav {
+    background: #345366; 
+}
+
+#tutorials_nav {
+      background: #343F4F; 
+}
+
+#contact_nav {
+        background: #272433; 
+}
+
+#navigation {
+          position: fixed;
+          z-index: 10;
+        }#container {
+          width: 6400px;
+          height: 6400px;
+          margin: 0 auto;
+          background: #FFFFFF;
+          position: relative;
+        }.info_section {
+          position: absolute;
+          height: 400px;
+          width: 600px;
+          border: 4px solid #000000;
+}
+
+#home {
+            top: 100px;
+            left: 100px;
+          }#about {
+            top: 1600px;
+            left: 100px;
+          }#experiments {
+            top: 3200px;
+            left: 100px;
+          }#games {
+            top: 100px;
+            left: 1600px;
+          }#tutorials {
+            top: 100px;
+            left: 3200px;
+          }#contact {
+            top: 1600px;
+            left: 1600px;
+            color: #DDDDDD;
+          }#game-container {
+            height: 100% ;
+            width: 100% ;
+            position: relative;
+          }#scrollRight {
+            width: 50px;
+            height: 50px;
+            background: #FFFFFFF;
+            border: 1px solid #000000;
+            position: absolute;
+            top: 150px;
+            right: 0px;
+          }#scrollLeft {
+            width: 50px;
+            height: 50px;
+            background: #FFFFFFF;
+            border: 1px solid #000000;
+            position: absolute;
+            top: 150px;
+            left: 0px;
+          }#games_window {
+            height: 210px;
+            width: 450px;
+            overflow: hidden;
+            background: rgba(52, 83, 102, 1.0);
+            position: absolute;
+            top: 100px;
+            left: 75px; /*border: 4px solid #000000;*/
+          }#games_overlay {
+            height: 210px;
+            width: 450px; /* background:  -moz-linear-gradient(left center , rgb(61, 96, 102) 0%, rgba(61, 96, 102, 0) 60%) repeat scroll 0 0 transparent; */
+            background-image: -webkit-gradient(linear, left center, right center, color-stop(0, rgb(52, 83, 102)), color-stop(0.4, rgba(52, 83, 102, 0))),
+            -webkit-gradient(linear, right center, left center, color-stop(0, rgb(52, 83, 102)), color-stop(0.4, rgba(52, 83, 102, 0)));
+            background-image: -moz-linear-gradient(left center, rgb(52, 83, 102) 0% , rgba(52, 83, 102, 0) 40% ),
+            -moz-linear-gradient(right center, rgb(52, 83, 102) 0% , rgba(52, 83, 102, 0) 40% );
+            position: absolute;
+            top: 100px;
+            left: 75px;
+            pointer-events: none;
+            z-index: 10;
+          }#games_selection {
+            height: 210px;
+            width: 1500px;
+            overflow: hidden;
+            position: relative;
+          }.game-poster {
+            height: 200px;
+            width: 100px;
+            background: #FFFFFF;
+            float: left;
+            border: 2px solid #222222;
+  margin: 4px;
+  position: absolute;
+}
+
+#game1 {
+              left: 150px;
+            }#game2 {
+              left: 300px;
+            }#game3 {
+              left: 450px;
+            }#game4 {
+              left: 600px;
+            }#game5 {
+              left: 750px;
+            }#game6 {
+              left: 900px;
+            }

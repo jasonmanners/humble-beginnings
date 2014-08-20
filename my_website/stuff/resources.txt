@@ -1,0 +1,23 @@
+<%= link_to "Game 1" games_path(@game1) %>  games/game2
+
+
+//routes
+resources :games
+
+
+
+def
+
+
+  def show
+    @game1 = param[:id];
+    
+    format.xml { :render => @game1}
+  emd
+
+end
+
+
+
+
+

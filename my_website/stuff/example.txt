@@ -1,0 +1,19 @@
+def index
+
+end 
+
+
+def game1
+  @gameId = "blah";
+  
+  format.xml { @gameId }
+end
+
+
+<canvas></canvas>
+<%= javascript_include_tag *Dir[Rails.root.join("public/javascripts/" . @gameId . "/**/*.js")] %>
+
+
+
+
+

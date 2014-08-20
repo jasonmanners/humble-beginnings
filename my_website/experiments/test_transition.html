@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+   <style type="text/css">
+    body {
+      width: 10000px;
+      background: rgba(45,90,150,0.75);
+    }
+    #woot_button {
+      width: 50px;
+      height: 50px;
+      background: #E8D999;
+    }
+   </style>
+  </head>
+  <body>
+    <div id="woot_button">WOOT</div>
+    <script type="text/javascript">
+      $("#woot_button").click(function(){
+        $('window').attr('scrollTo','500');
+        $('window').css('-moz-transition','scrollTo 1s linear');
+      //  $("html,body").animate({scrollLeft: 500}, 750)
+        
+        //window.scrollTo('500','0');
+      });
+    </script>
+  </body>
+</html>

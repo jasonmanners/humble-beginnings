@@ -1,0 +1,74 @@
+* {
+  /*font-family: 'Didact Gothic', serif;*/
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+
+body {
+  background: rgba(100,100,0,0.2); 
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  width: 720px;
+}
+
+.content h1 {
+  font-size: 75px;
+}
+.content h5 {
+  font-size: 20px;
+}
+
+.contact {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border: 1px solid rgba(0,0,0,0);
+  box-shadow: 1px 1px 5px rgba(0,0,0,0);
+  -moz-transition: background linear 0.35s, border linear 0.35s, box-shadow linear 0.35s;
+  -webkit-transition: background linear 0.35s, border linear 0.35s, -webkit-box-shadow linear 0.35s;
+  transition: background linear 0.35s, border linear 0.35s, box-shadow linear 0.35s;
+}
+
+.contact_form {
+  display: none;
+  padding: 10px 0;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid #112233;
+}
+
+label {
+  float: left;
+  margin-right: 10px;
+  width: 260px;
+  text-align: right;
+}
+
+input, textarea {
+  width: 300px;
+  margin-right: 100px;
+  font-family: helvetica;
+  font-size: 14px;
+}
+
+#submit_form {
+  width: 100px;
+}
+
+.contact:hover {
+  background: rgba(0,50,0,0.1);
+  border: 1px solid rgba(0,50,0,0.3);
+  box-shadow: 1px 1px 5px rgba(0,0,0,1.0);
+  -moz-transition: background linear 0.35s, border linear 0.35s, box-shadow linear 0.35s;
+  -webkit-transition: background linear 0.35s, border linear 0.35s, box-shadow linear 0.35s;
+  transition: background linear 0.35s, border linear 0.35s, box-shadow linear 0.35s;
+}

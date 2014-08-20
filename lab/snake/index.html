@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+        <meta name="description" content="Snake, An HTML5 canvas game which uses only keyboard input.">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name = "viewport" content = "width = 450">
+
+		<title>Snake</title>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script> 
+     
+		<link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript">
+      //Google Analytics
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22874355-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+	</head>
+	<body>
+		<canvas id='world'></canvas>
+		<div id="status" class="ui">Score: <span id="currentScore">0</span></div>
+		<div id="message" class="ui">
+		  <h2 id="title">Snake - Instructions</h2>
+		  <ul>
+		    <li>1. Use the arrow keys to move.</li>
+		    <li>2. Get apples to get points.</li>
+		    <li>3. Avoid the walls and your own tail.</li>
+		    <li>4. Good Luck!</li>
+		  </ul>
+      <div id="difficulty_radio" class="difficulty-menu">
+        <h3>Speed:</h3>
+        <input type="radio" id="speed_1" name="radio" value="1"/><label for="speed_1">1</label>
+        <input type="radio" id="speed_2" name="radio" value="2"/><label for="speed_2">2</label>
+        <input type="radio" id="speed_3" name="radio" value="3"/><label for="speed_3">3</label>
+      </div>
+		  <a href="#" id="myStart">Start</a>
+		</div>
+		<script type="text/javascript" src="js/testGame.js"></script>
+    <div id="homeLink" class="home-link"><a href="http://jasonmanners.info/">Home</a></div>
+    <div>
+      <a href="http://www.w3.org/html/logo/">
+        <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" 
+            alt="HTML5 Powered with CSS3 / Styling, and Semantics"
+            title="HTML5 Powered with CSS3 / Styling, and Semantics">
+      </a>
+    </div>
+	</body>
+</html>

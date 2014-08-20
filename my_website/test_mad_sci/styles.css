@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+#container {
+  width: 4800px;
+  height: 3200px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  position: relative;
+}
+
+#body {
+  top: 20px;
+  left: 100px;
+  border: 10px solid #000000;
+  position: absolute;
+  height: 600px; /* 485px;*/
+  width: 400px; /* 300px; */
+  /*top: 100px;
+  left: 35%;
+  right: 35%;
+  bottom: 100px;*/
+}
+
+#projects {
+  top: 20px;
+  left: 1600px;
+  border: 10px solid #000000;
+  position: absolute;
+  height: 600px; /* 485px;*/
+  width: 400px; /* 300px; */
+  /*top: 100px;
+  left: 35%;
+  right: 35%;
+  bottom: 100px;*/
+}
+
+#contact {
+  top: 1200px;
+  left: 1600px;
+  border: 10px solid #000000;
+  position: absolute;
+  height: 600px; /* 485px;*/
+  width: 400px; /* 300px; */
+}
+
+#about {
+  top: 1200px;
+  left: 100px;
+  border: 10px solid #000000;
+  position: absolute;
+  height: 600px; /* 485px;*/
+  width: 400px; /* 300px; */
+  /*top: 100px;
+  left: 35%;
+  right: 35%;
+  bottom: 100px;*/
+}
+
+#number {
+  font-family:arial, helvetica; 
+  font-size:75px;
+  font-weight:thin;
+}
+
+#BLOCK {
+  background: #FF5544;
+  width: 50px;
+  height: 50px;
+  display: block;
+  top: 500px;
+  left: 500px;
+  opacity: 0;
+  position: fixed;
+}
+
+header {
+  position: fixed;
+  top: 100px;
+  left: 0px;
+}
+
+#navigation {
+  width:68px;
+  height:68px;
+  background: url("nav_background.png") no-repeat scroll 0 0 transparent;
+}
+
+nav {
+  position: relative;
+}
+        
+#home {
+  position: absolute;
+  top: 24px;
+  left: 0px;
+}    
+#top {
+  position: absolute;
+  top: 0px;
+  left: 24px;
+}
+#project_nav {
+  position: absolute;
+  top: 24px;
+  left: 48px;
+}
+#contact_nav {
+  position: absolute;
+  top: 48px;
+  left: 24px;
+}
+
+#contact_nav img:hover {
+  width: 30px;
+  height: 30px;
+  -moz-transition: width .25s linear, height .15s linear;
+  -webkit-transition: width .25s linear, height .15s linear;
+  transition: width .25s linear, height .15s linear;
+}
+
+/*
+#container {
+  width: 100%;
+  margin: 0 auto;
+  background: #222222;
+  position: relative;
+}
+
+header {
+  background: #3A5438;
+  width: 100%;
+  height: 200px;
+}
+
+#home {
+  width: 100px;
+  height: 50px;
+  background: #1166DD;
+  float: right;
+  right: 10px;
+  top:20px;
+  position: fixed;
+}
+
+body {
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  top: 1000px;
+  background: #1F332D;
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+#body {
+  background: #B1C998;
+  width: 960px;
+  height: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+#BLOCK {
+  background: #FF5544;
+  width: 50px;
+  height: 50px;
+  display: block;
+  top: 500px;
+  left: 500px;
+  opacity: 0;
+  position: fixed;
+}
+*/

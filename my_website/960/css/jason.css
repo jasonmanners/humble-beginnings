@@ -1,0 +1,127 @@
+
+#waves {
+  width: 1000000px;
+}
+
+.buttons {
+  float: left;
+}
+
+.wave_indicator {
+  width: 75px;
+  height: 25px;
+  border: 2px solid #222222;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+  float:left;
+  background: rgba(50,50,0,0.5);
+  color:#EEEEEE;
+  text-align: center;
+  font-weight: bold;
+}
+
+#wave_window {
+  overflow: hidden;
+  z-index: 10;
+  border: 2px solid rgba(50,50,50,0.8);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding:10px;
+  background: rgba(25,25,0,0.1);
+  -moz-box-shadow: 2px 2px 2px #333333;
+}
+
+#current_wave {
+  position:absolute;
+  z-index: 11;
+  /*border-right: 2px solid #222222;
+  border-left: 2px solid #222222;*/
+  width:98px;
+  height: 50px;
+  left:2px;
+  bottom: 2px;
+  right:2px;
+}
+
+.wave_info {
+  position:relative;
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.game_ui {
+  background: rgba(0,0,0,0.3);
+  -mox-box-shadow: 0px 2px 5px #444444;
+  -webkit-box-shadow: 0px 2px 5px #444444;
+  box-shadow: 0px 2px 5px #444444;
+  border: 1px solid #111111;
+}
+
+
+.game_ui nav ul li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 1px solid rgba(0,50,50,0.5);
+  border-right: 1px solid rgba(0,50,50,0.5);
+  margin-left:-1px;
+}
+
+.game_ui nav ul li:hover {
+  background: rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.speed_menu {
+  /*float: left;*/
+}
+
+.speed_menu span {
+  float: left;
+}
+
+.speed_menu ul li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(0,50,50,0.5);
+  margin-left:-1px;
+}
+
+.speed_menu ul li:hover {
+  background: rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+
+.resources_display {
+  border-right: 1px solid rgba(50,50,50,0.8);
+  float:left;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgba(100,90,20,0.2);
+}
+
+.score_display {
+  border-right: 1px solid rgba(50,50,50,0.8);
+  float:left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width:150px;
+  background: rgba(100,90,20,0.2);
+}
+
+.health_display {
+  border-right: 1px solid rgba(50,50,50,0.8);
+  float:left;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgba(100,90,20,0.2);
+}

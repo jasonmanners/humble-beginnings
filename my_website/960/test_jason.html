@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>960 Grid System &mdash; Demo</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960.css" />
+<link rel="stylesheet" href="css/demo.css" />
+<link rel="stylesheet" href="css/jason.css" />
+</head>
+<body>
+  <div class="container_12">
+  <div class="grid_2">
+      <p>
+        140
+      </p>
+    </div>
+    <div class="grid_10">
+      <header class="game_ui">
+        <article class="buttons">
+          <nav>
+            <ul>
+              <li id="pause">Pause</li>
+              <li id="tower">Place Tower</li>
+              <li id="survivor">Place Survivor</li>
+            </ul>
+          </nav>
+        </article>
+        <article class="speed_menu">
+            <span>Speed: </span>
+            <ul>
+              <li id="speed_1">1</li>
+              <li id="speed_2">2</li>
+              <li id="speed_3">3</li>
+            </ul>
+        </article>
+        <article class="score_display">
+          <span>Score: </span><span id="score_number">0</span>
+        </article>
+        <article class="health_display">
+          <span>Health: </span><span id="health_number"></span>
+        </article>
+        <article  class="resources_display">
+          <span>Resources: </span><span id="resources_number"></span>
+        </article>
+      </header>  
+    </div>
+    <!-- end .grid_12 -->
+    <div class="clear"></div>
+    <div class="grid_2">
+      <p style="height:400px;">
+        140
+      </p>
+    </div>
+    <!-- end .grid_1 -->
+    <div class="grid_10">
+      <p style="height:400px;">
+        780
+      </p>
+    </div>
+    
+    <div class="grid_2">
+      <p>
+        140
+      </p>
+    </div>
+    <!-- end .grid_1 -->
+    <div class="grid_10 wave_info">
+      <div id="current_wave"></div>
+      <div id="wave_window">
+        <section id="waves">
+          <article class="wave_indicator">Wave 0</article><article class="wave_indicator">Wave 1</article><article class="wave_indicator">Wave 2</article><article class="wave_indicator">Wave 3</article>
+          <article class="wave_indicator">Wave 4</article><article class="wave_indicator">Wave 5</article><article class="wave_indicator">Wave 6</article><article class="wave_indicator">Wave 7</article>
+          <article class="wave_indicator">Wave 8</article><article class="wave_indicator">Wave 9</article><article class="wave_indicator">Wave 10</article>
+        </section>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

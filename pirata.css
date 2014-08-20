@@ -1,0 +1,172 @@
+/* CSS Document */
+
+body {
+	/* background:#D0D8D8; */
+  background:#888888;
+	text-align:center;
+	margin:0;
+	padding:0;
+	font:normal 0.8em/1.2em verdana,aria,sans-serif;
+	color:#666;
+}
+
+a {
+	color:#FFF;
+	text-decoration:none;
+	border-bottom:1px dotted;
+}
+
+a:hover {
+	border-bottom:1px solid;
+	color:#444444;
+}
+  
+#wrapper1 {
+  margin:0 auto;
+  position:relative;
+  width:800px;
+ /* background:#A7C8DA; */
+  background:#AAAAAA;
+  min-height:600px;
+  border: 1px #777777 solid;
+}
+
+#header {
+	background-color:rgba(100, 100, 54, 0.5);
+  padding-top:5px;
+  padding-bottom:20px;
+	text-align:left;
+  text-shadow:0 0 5px #000000;
+	color:#FFF;
+  border-bottom: 1px #777777 solid;
+}
+
+#content {
+  padding:0 0 0 0;
+	text-align:center;
+}
+
+#header h1 {
+	font-size:200%;
+}
+
+#header a:hover {
+	color:#444444;
+}
+  
+#maincol {
+	position:relative;
+	margin:0;
+	padding:2px;
+}
+
+#logo {
+  border:medium none;
+  display:block;
+  width:275px;
+  text-align:left;
+  padding-left:11px;
+}
+
+#left {
+  border-radius:10px 10px 10px 10px;
+  -moz-border-radius:10px 10px 10px 10px;
+  float:left;
+  width:545px;
+  line-height:1.5em;
+  margin:0 3px 0 0;
+ /* background:#95B696;*/
+  min-height:295px;
+}
+
+#right {
+  border-radius:10px 10px 10px 10px;
+  -moz-border-radius:10px 10px 10px 10px;
+  float:right;
+  line-height:1.5em;
+  margin:0 2px 0 0;
+  width:245px;
+  background:#A7C8DA;
+}
+
+#centercol a {
+	color:#666;
+}
+
+#centercol a:hover {
+	border-bottom:1px solid;
+	color:#9343B9;
+}
+
+#footer {
+  padding:2px;
+	background-color:rgba(100, 100, 54, 0.5);
+  padding-top:10px;
+  padding-bottom:20px;
+	text-align:center;
+	color:#FFF;
+}
+  
+#menu {
+  left:19px;
+  top:19px;
+  width:623px;
+  padding-left:30px;
+}
+
+ol, ul {
+  list-style: none;
+}  
+  
+#menu li a span{
+  display:block;
+  font:12px Arial,Verdana,serif;
+  position:relative;
+  text-shadow:0 0 5px #000000;
+  top:-5px;
+}
+
+#header .header-plate  {
+  height:93px;
+  position:relative;
+  text-align:left;
+}
+
+#menu li {
+  float:left;
+  width:102px;
+  /* border: solid 1px black; */
+}
+
+#content-bot {
+  min-height:600px;
+}
+
+.entryHeading {
+  font-size:150%;
+  text-align:left;
+  color:#222222;
+  font-weight:bold;
+  display:block;
+}
+
+.entryContent{
+  text-align:left;
+  padding-left:20px;
+  display:block;
+}
+
+.entry {
+  padding:10px;
+}
+
+hr {
+  width: 50%;
+  text-align: left;/*this will align it for IE*/
+  margin: 0 auto 0 0; /*this will align it left for Mozilla*/
+}
+
+a:focus {
+  outline: none;
+  color:#444444;
+}

@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <title>Pirata Games</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+    <link href="pirata.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+body, html {
+	background-color: #AAAAAA;
+}
+
+.body {
+  align:center;
+}
+canvas {
+  top: 100px;
+	border: 6px #333333 solid;
+	background-color: #888888;
+}
+.score_ui {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #414141;
+	text-align: left;
+	padding: 8px;
+}
+
+.ui {
+  top: 150px;
+  left: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #414141;
+	text-align: left;
+	padding: 8px;
+	background-color: rgba(100,100,54,0.5);
+	position: absolute;
+	z-index: 2;
+}
+
+#message {
+	padding: 16px;
+}
+
+#status span {
+	color: #444444;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.ui ul {
+	margin: 10px 0 10px 0;
+	padding: 8px 0 8px 10px;
+}
+
+.ui ul li {
+	list-style: none;
+}
+
+.ui a {
+	outline: none;
+  border: 1px #000000 hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	text-decoration: none;
+	color: #bbbbbb;
+	padding: 3px;
+	display: block
+}
+
+.ui a:hover {
+	color: #ffffff;
+	background-color: rgba(100, 100, 54, 0.85);
+  border: 1px #888888 solid;
+  padding: 2px;
+}
+#container { 
+  position: absolute; 
+  margin: 20px 0 0 0; 
+}
+#left {
+  line-height:1em;
+}
+.entry {
+  padding:0px;
+}
+</style>
+  </head>
+  <body>
+    <div id="wrapper1"><!-- sets background to white and creates full length leftcol-->
+      <div id="header">
+        <h1 id="logo">Pirata Games</h1>
+                <div id="header-plate">
+          <ul xmlns="http://www.w3.org/1999/xhtml" id="menu">
+            <li id="menu-home">
+              <a href="index.html" class="active"><span>Home</span></a>
+            </li>
+            <!--li id="menu-game">
+              <a href="#"><span>.Zombies</span></a>
+            </li-->
+            <li id="menu-community">
+              <a href="testGame.html"><span>Snake</span></a>
+            </li>
+            <li id="menu-community2">
+              <a href="testGame2.html"><span>Snake2</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <div id="content-bot">
+          <div id="maincol"><!-- begin main content area -->
+            <div id="left">
+              <div class="entry">
+                <div id="container">
+                  <div id="status" class="score_ui">Score: <span id="currentScore">0</span></div>
+                  <canvas id='world' width="500px" height="500px"></canvas>
+                  <div id="message" class="ui">
+                    <h2 id="title">Snake - Instructions</h2>
+                    <ul>
+                      <li>1. Use Arrow keys to move</li>
+                      <li>2. Avoid walls and your own tail</li>
+                      <li>3. Pick up apples to score points</li>
+                    </ul>
+                    <a href="#" id="myStart">Start</a>
+                  </div>
+                </div>
+                <script type="text/javascript" src="testGame.js"></script>
+              </div>
+          </div>   
+        </div>
+      </div>
+      <div id="footer">
+        <p></p>
+      </div>
+    </div>
+  </body>
+</html>

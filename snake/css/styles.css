@@ -1,0 +1,161 @@
+body, html {
+	background-color: #AAAAAA;
+}
+
+.body {
+  align:center;
+}
+
+canvas {
+  top: 20px;
+	border: 6px #333333 solid;
+	background-color: #888888;
+}
+
+.score_ui {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #414141;
+	text-align: left;
+	padding: 8px;
+}
+
+.ui {
+  border-radius: 8px 8px 8px 8px;
+  top: 50px;
+  left: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #414141;
+	text-align: center;
+	padding: 8px;
+	background-color: rgba(100,100,54,0.5);
+	position: absolute;
+	z-index: 2;
+  width: 200px;
+}
+
+#message {
+
+}
+
+#countdown {
+  display:none;
+}
+
+#status {
+	width: 490px;
+	height: 10px;
+	padding: 5px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+#status span {
+	color: #bbbbbb;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.ui ul {
+	margin: 0px 0 10px 0;
+	padding: 0px 0 8px 10px;
+}
+
+.ui ul li {
+	list-style: none;
+}
+
+.ui a {
+	outline: none;
+  border: 1px #000000 hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	text-decoration: none;
+	color: #bbbbbb;
+	padding: 3px;
+	display: block
+}
+
+.ui a:hover {
+	color: #ffffff;
+	background-color: rgba(100, 100, 54, 0.85);
+  border: 1px #888888 solid;
+  padding: 2px;
+}
+
+.ui h1 {
+  margin: 5px;
+}
+
+.ui h2 {
+  margin: 4px;
+}
+
+.ui h3 {
+  margin: 2px;
+}
+
+#homeLink {
+  text-align: right;
+}
+
+.home-link a {
+	color:#FFF;
+	text-decoration:none;
+  font: 12px Arial,Verdana,serif;
+  text-shadow: 0 0 5px #000000;
+}
+
+.home-link a:hover {
+	color:#FFF;
+	text-decoration:none;
+  font: 12px Arial,Verdana,serif;
+  text-shadow: 0 0 5px #000000;
+	color:#444444;
+}
+
+#title p {
+  padding-left: 8px;
+}
+
+.difficulty-menu {
+  margin: 0px 15px;
+}
+
+#menu .button {
+  -moz-transition: all 0.19s ease-out 0s;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+  border-radius: 4px 4px 4px 4px;
+  color: #CCCCCC;
+  display: inline-block;
+  font-size: 18px;
+  padding: 6px 18px;
+  text-decoration: none;
+}
+
+#menu .button:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 15px rgba(0, 250, 200, 0.3);
+}
+
+.html-badge {
+  position: absolute;
+  bottom: 20px;
+}
+
+.instructions {
+  position: absolute;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #414141;
+}
+
+.instructions ul {
+	margin: 0px 0 10px 0;
+	padding: 0px 0 8px 10px;
+}
+
+.instructions ul li {
+	list-style: none;
+}

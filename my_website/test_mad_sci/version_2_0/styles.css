@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* overflow: hidden;*/
+}
+
+#container {
+  width: 4800px;
+  height: 3200px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  position: relative;
+}
+
+#home {
+  top: 20px;
+  left: 100px;
+  position: absolute;
+  height: 510px;
+  width: 750px;
+}
+
+#me {
+  top: 1000px;
+  left: 250px;
+  border: 10px solid #000000;
+  position: absolute;
+  height: 480px;
+  width: 720px;
+  background: #677463;
+}
+
+#me_nav {
+  height:240px;
+  width:360px;
+  border: 10px solid #000000;
+  position: absolute;
+  top: 0px;
+  background: #C5A91E;
+}
+
+#projects_nav {
+ height:240px;
+  width:360px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border: 10px solid #000000;
+  background: #C5A91E;
+}
+
+#labs_nav {
+ height:240px;
+  width:360px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: 10px solid #000000;
+  background: #C5A91E;
+}
+
+#contact_nav {
+  height:240px;
+  width:360px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: 10px solid #000000;
+  background: #C5A91E;
+}
+
+#number {
+  font-family:arial, helvetica; 
+  font-size:75px;
+  font-weight:thin;
+}
+
+.big-text {
+  font-family:arial, helvetica; 
+  font-size:60px;
+  font-weight:thin;
+  text-decoration: none;
+  color: #21241A;
+  text-transform: uppercase;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 30%;
+}
+
+#contact_nav:hover {
+  background: #DD610D;
+  -moz-border-radius: 180px;
+  -webkit-border-radius: 180px;
+  border-radius: 180px;
+  
+  -moz-transition: background linear 0.5s,border-radius linear 0.5s;
+  -webkit-transition: background linear 0.5s,border-radius linear 0.5s;
+  transition: background linear 0.5s,border-radius linear 0.5s;
+}
+
+
+#me_nav:hover {
+  background: #C27310;
+  -moz-border-radius: 180px;
+  -webKit-border-radius: 180px;
+  border-radius: 180px;
+  
+  -moz-transition: background linear 0.5s,border-radius linear 0.5s;
+  -webkit-transition: background linear 0.5s,border-radius linear 0.5s;
+  transition: background linear 0.5s,border-radius linear 0.5s;
+}
+
+
+#projects_nav:hover {
+    background: #7E7930;
+    -moz-border-radius: 180px;
+  -webKit-border-radius: 180px;
+  border-radius: 180px;
+    -moz-transition: background linear 0.5s,border-radius linear 0.5s;
+  -webkit-transition: background linear 0.5s,border-radius linear 0.5s;
+  transition: background linear 0.5s,border-radius linear 0.5s;
+}
+
+
+#labs_nav:hover {
+    background: #457B53;
+    -moz-border-radius: 180px;
+  -webKit-border-radius: 180px;
+  border-radius: 180px;
+    -moz-transition: background linear 0.5s,border-radius linear 0.5s;
+  -webkit-transition: background linear 0.5s,border-radius linear 0.5s;
+  transition: background linear 0.5s,border-radius linear 0.5s;
+}
+
+#projects_nav{
+    background: #C5A91E;
+    -moz-border-radius: 0px;
+  -webKit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-transition: background linear 0.5s,border-radius linear 0.5s;
+  -webkit-transition: background linear 0.5s,border-radius linear 0.5s;
+  transition: background linear 0.5s,border-radius linear 0.5s;
+}
+
+#labs_nav{
+    background: #C5A91E;
+    -moz-border-radius: 0px;
+  -webKit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-transition: background linear 0.5s,border-radius linear 0.5s;
+  -webkit-transition: background linear 0.5s,border-radius linear 0.5s;
+  transition: background linear 0.5s,border-radius linear 0.5s;
+}
+
+#contact_nav{
+    background: #C5A91E;
+    -moz-border-radius: 0px;
+  -webKit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-transition: background linear 0.5s,border-radius linear 0.5s;
+  -webkit-transition: background linear 0.5s,border-radius linear 0.5s;
+  transition: background linear 0.5s,border-radius linear 0.5s;
+}
+
+#me_nav{
+    background: #C5A91E;
+    -moz-border-radius: 0px;
+  -webKit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-transition: background linear 0.5s,border-radius linear 0.5s;
+  -webkit-transition: background linear 0.5s,border-radius linear 0.5s;
+  transition: background linear 0.5s,border-radius linear 0.5s;
+}
